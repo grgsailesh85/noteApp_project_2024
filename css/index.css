@@ -1,0 +1,64 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+
+}
+#main{
+  width:100%;
+  min-height: 100vh;
+  background-color: aqua;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 50px;
+}
+.note{
+  width:400px;
+  height:400px;
+  background-color: white;
+  margin: 15px;
+  margin-top: 50px;
+}
+.tool{
+  width:100%;
+  background-color: rgb(30, 27, 27);
+  color: azure;
+  padding: 5px;
+  display: flex;
+  justify-content: end;
+  /* margin-top: 50px; */
+}
+.tool i{
+  padding: 5px;
+  cursor: pointer;
+}
+.note textarea{
+  /* border: 2px solid black; */
+  /* border-radius: 10px; */
+  border: none;
+  width: 100%;
+  height: 100%;
+  resize: none;
+  padding: 10px;
+  font-size: 20px;
+}
+/* focus pseudo-class targets an elements that currently has focus,for eg: when user clicks or taps on an element like buttons input fields etc */
+.note textarea:focus{
+  border: 0;
+  outline: 0;
+
+}
+#addBtn{
+  position: fixed;
+  right: 10px;
+  top: 10px;
+  background-color: rgb(37, 33, 33);
+  color: aliceblue;
+  padding: 5px;
+  border: 0;
+  outline: 0;
+  border-radius: 5px;
+
+  /* left: 10px; */
+  /* bottom: 10px; */
+}
